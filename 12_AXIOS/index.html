@@ -9,11 +9,31 @@
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
+    <!-- <script src="./JS/global.js"></script> -->
+
+    <script src="./JS/custom.js"></script>
+
+    <script src="./JS/interceptor.js"></script>
+
     <script src="./js/index.js" defer></script>
   </head>
 
   <body>
     <h1>Axios</h1>
+    <!-- POST -->
+    <h2>Insira um novo post:</h2>
+
+    <form id="post-form">
+      <div>
+        <input type="text" id="title" placeholder="Digite o titulo" />
+      </div>
+
+      <div>
+        <textarea id="body"></textarea>
+      </div>
+
+      <input type="submit" value="Criar Post" />
+    </form>
 
     <!-- Inserindo Dados -->
 
